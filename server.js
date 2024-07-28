@@ -7,7 +7,7 @@ require("dotenv").config()
 // server used to send send emails
 const app = express();
 app.use(cors({
-  origin: 'https://frontend-service.onrender.com', // Replace with your frontend URL
+  origin: 'https://devportfolio900.onrender.com/', // Replace with your frontend URL
   methods: ['GET', 'POST'],
   credentials: true
 }));
